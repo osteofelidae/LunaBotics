@@ -4,32 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc42eef5-5ab4-4330-9830-a71874a619cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/LunaBotics.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COMMENTING.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/modules/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/modules/comms/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/modules/comms/laptop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/modules/comms/rover.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/modules/motors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/modules/sensors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/laptop/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/laptop/modules/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/laptop/modules/comms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rover/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rover/modules/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rover/modules/comms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rover/modules/motors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rover/modules/sensors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_controller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_laptop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_rover.py" afterDir="false" />
+    <list default="true" id="cc42eef5-5ab4-4330-9830-a71874a619cc" name="Changes" comment="Initial Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
@@ -61,7 +38,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/run/media/egg/2d48ceb6-ce18-48be-9061-8218549319f6/Documents II/Python/LunaBotics/tests"
   }
 }]]></component>
@@ -109,6 +86,19 @@
       <option name="presentableId" value="Default" />
       <updated>1710263766931</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1710266322753</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710266322753</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
