@@ -1,6 +1,7 @@
 from xbox_controller import XInput
 from time import sleep
 import re
+import json
 
 #Extracts values from inputs and put them in an int list
 '''def listOfIntInputs (inputString):
@@ -64,6 +65,7 @@ class XboxInputsWrapper():
 #Testing and usage examples
 XController = XboxInputsWrapper()
 
+fp = open("out.json", "w")
 while True: #Game/Life loop
     XInputVals = XController.read()
     outsideDeadzone = XController.OutsideDeadZoneCheck()
@@ -73,8 +75,10 @@ while True: #Game/Life loop
                "outsidedeadzone": outsideDeadzone,
                "triggerpressures": triggerPressures,
                "analogpercent": analogPercent}
-    print(XInputVals)
-    print(outsideDeadzone)
-    print(triggerPressures)
-    print(analogPercent)
+    json.dump(jsonout, fp)
+    #print(XInputVals)
+    #print(outsideDeadzone)
+    #print(triggerPressures)
+    #print(analogPercent)
     sleep(0.5)
+fp.close()
